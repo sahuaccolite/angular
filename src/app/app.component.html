@@ -1,0 +1,10 @@
+ <app-header *ngIf="headerTitle" [title]="headerTitle"></app-header> 
+
+<hr/>
+ 
+<div *ngFor="let user of userData">
+   <p>ID : {{user.id}} </p>
+   <p>title : {{user.title}} </p>
+   <p>Body: {{user.body}} </p>
+</div>
+

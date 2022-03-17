@@ -1,0 +1,12 @@
+<label>Name: </label>
+ <input type="text" [(ngModel)]="userData.name" />
+
+<div>
+  <div> </div>
+<label>Name</label> {{userData.name}}</div>
+
+<div><label>DOB</label>  {{userData.dob}}
+  <div><label>City</label> {{userData.city}}</div>
+ </div>
+
+ <button type="button" (click)="passValueToparent()"> Update Name
